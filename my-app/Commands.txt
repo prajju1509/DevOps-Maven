@@ -1,0 +1,17 @@
+commands to run this project
+
+
+mvn --version
+
+git clone <clone id>
+
+cd my-app
+
+mvn package
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+mvn clean dependency:copy-dependencies package
+
+mvn site
+
