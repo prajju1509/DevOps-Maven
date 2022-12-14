@@ -1,0 +1,31 @@
+Commands to work on this project
+
+Clone the git repository  
+
+Compile my application sources
+
+mvn compile	>>  It will create /my-app/target/classes
+
+Compile my test sources and run my unit tests
+
+mvn test	>>  Maven download more dependencies.
+
+mvn test-compile		>> It will compile your test sources 
+
+Create a JAR and install in my local repository.
+
+mvn package	>>making a JAR file is straight forward enough. It will create jar file in /target directory
+mvn install	>>it will install the JAR file into your local repository  
+
+mvn site		>> to provide basic information about your project
+
+mvn clean	>>clean the project. This will remove the target directory
+
+mvn process-resources	>> build lifecycle phase where the resources are copied and filtered
+mvn process-resources "-Dcommand.line.prop=hello again"	>>the definition of the command.line.prop property on the command line
+
+mvn package
+mvn verify	>> the top level directory
+
+
+
